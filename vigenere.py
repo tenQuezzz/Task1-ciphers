@@ -116,10 +116,9 @@ def task11():
 
 
 if __name__ == '__main__':
-    # task8()
-    # task8_plus()
-    # print(f'Key is {task9()}')
-    # task9()
+    task8()
+    task8_plus()
+    print(f'Key is {task9()}')
+    task9()
     task10()
-    # task11()
-    # task12()
+    task11()
