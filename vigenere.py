@@ -5,7 +5,6 @@ from itertools import permutations
 
 alphabet_size = 256
 
-
 def encrypt(data, k, border=0):
     key = [ord(ch) for ch in k]
     key_length = len(key)
@@ -117,7 +116,6 @@ def task11():
 
 
 if __name__ == '__main__':
-    pass
     # task8()
     # task8_plus()
     # print(f'Key is {task9()}')
